@@ -1,0 +1,18 @@
+.rodape {
+  background-color: #bfbfbf;
+  color: #fdfdfd;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1.6525rem;
+  text-align: right;
+}
+.contato {
+  font-family: roboto;
+  font-size: 2rem;
+}
+.quadrado {
+  background-color: #9d0606;
+  height: 58px;
+  width: 58px;
+  margin: 1.33rem;
+}

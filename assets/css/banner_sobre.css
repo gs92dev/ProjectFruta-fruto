@@ -1,0 +1,56 @@
+.banner {
+  position: relative;
+}
+.banner_imagem {
+  width: 100%;
+  height: calc(100vh-72px);
+}
+.banner_titulo {
+  text-align: center;
+  font-family: pacifico, cursive;
+  font-size: 5.0625rem;
+  color: #fdfdfd;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.sobre {
+  text-align: center;
+  padding: 2.5rem;
+}
+.sobre_titulo {
+  font-family: pacifico, cursive;
+  color: #8d0606;
+  font-size: 3.1875rem;
+}
+.sobre_texto {
+  color: #8c8888;
+  font-size: 1.75rem;
+}
+
+@media only screen and (max-width: 760px) {
+  .banner_titulo {
+    text-align: center;
+    font-family: pacifico, cursive;
+    font-size: 2rem;
+    color: #fdfdfd;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .sobre_titulo {
+    font-family: pacifico, cursive;
+    color: #8d0606;
+    font-size: 1.5rem;
+  }
+  .sobre_texto {
+    font-size: 1.2rem;
+  }
+}
